@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ background: linear-gradient(to bottom, white, #ffffff, rgb(29, 29, 192) );
+    
+    
+}
+/*
+#FFC700 amarillo
+#080066 azul
+blanco y negro
+*/
