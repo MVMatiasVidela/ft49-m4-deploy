@@ -69,7 +69,7 @@ export default function InfoApp() {
           <h4 className="text-2xl">INFORMACIÓN</h4>
           <p>TECHNOVID tecnología</p>
           <p>Avenida Siempreviva 742, Springfield</p>
-          <Link href="/">
+          <Link href="/hola">
           <p>Sobre nosotros</p>
           </Link>
         </div>
