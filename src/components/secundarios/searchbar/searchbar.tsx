@@ -2,7 +2,7 @@ import React from 'react'
 
 const Searchbar = () => {
   return (
-      <div className="w-full md:w-6/12 mt-4 md:mt-0 order-last md:order-none">
+      <div className="max-w-[500px] md:w-6/12 mt-4 md:mt-0 order-last md:order-none">
         <form className="max-w-xl mx-auto p-2">
           <label
             htmlFor="default-search"

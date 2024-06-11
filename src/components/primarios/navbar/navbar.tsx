@@ -25,21 +25,21 @@ const Navbar = () => {
     <nav>
       <div className="w-full flex flex-wrap items-center justify-between bg-gray-900 p-4">
         <div className="flex items-center w-full md:w-auto justify-between">
-          <div className="ml-16">
-            <Link href="/home">
+          <div className="ml-16 transform transition duration-300 hover:rotate-180">
+            <Link href="/home ">
               <Image
                 src="/imagenes/logo1.png"
                 alt="Logo"
-                width={70}
-                height={70}
+                width={50}
+                height={50}
               />
             </Link>
           </div>
 
-          <div className="flex space-x-4 md:hidden">
+          <div className="flex space-x-4 md:hidden ">
             <Link href="/cart">
               <img
-                className="h-8 w-8"
+                className="h-8 w-8 "
                 src="https://cdn-icons-png.flaticon.com/128/3081/3081559.png"
                 alt="Cart"
               />
@@ -63,7 +63,7 @@ const Navbar = () => {
             <div className="text-white flex flex-row">
               <Link href="/dashboard">
                 <img
-                  className="h-8 w-8 m-4"
+                  className="h-8 w-8 m-4 hover:scale-110"
                   src="https://cdn-icons-png.flaticon.com/128/5953/5953761.png"
                   alt="Usuario"
                 />
@@ -85,16 +85,16 @@ const Navbar = () => {
               </Link>
             </div>
           )}
-        <div className="mr-12">
-          {" "}
-          <Link href="/cart">
-            <img
-              className="h-12 w-12"
-              src="https://cdn-icons-png.flaticon.com/128/3081/3081559.png"
-              alt="Cart"
-            />
-          </Link>
-        </div>
+          <div className="mr-12">
+            {" "}
+            <Link href="/cart">
+              <img
+                className="h-12 w-12 hover:scale-110"
+                src="https://cdn-icons-png.flaticon.com/128/3081/3081559.png"
+                alt="Cart"
+              />
+            </Link>
+          </div>
         </div>
       </div>
 

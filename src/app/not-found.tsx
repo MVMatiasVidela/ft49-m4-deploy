@@ -6,15 +6,15 @@ export default function PageNotFound() {
     <>
       <main className="flex items-center justify-center h-screen bg-light">
         <div className="text-center ">
-          <div >
+          <div className="transform transition duration-300 hover:rotate-180">
             <Link href="/">
-              <Image/>
+              <Image />
             </Link>
           </div>
-          <h1 className="text-6xl font-bold tracking-tight text-primary sm:text-8xl">
+          <h1 className="text-6xl text-yellow-500 font-bold tracking-tight text-primary sm:text-8xl">
             404
           </h1>
-          <p className="mt-4 text-xl leading-relaxed text-gray">
+          <p className="mt-4 text-white text-xl leading-relaxed text-gray">
             Lo sentimos, no se ha encontrado lo que buscabas.
           </p>
           <div className="p-3">

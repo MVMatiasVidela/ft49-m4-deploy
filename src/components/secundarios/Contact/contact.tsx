@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import Link from "next/link";
 
@@ -70,13 +70,13 @@ export default function InfoApp() {
           <p>TECHNOVID tecnología</p>
           <p>Avenida Siempreviva 742, Springfield</p>
           <Link href="/hola">
-          <p>Sobre nosotros</p>
+            <p>Sobre nosotros</p>
           </Link>
         </div>
         <hr className="border-black md:hidden" />
         <div className=" max-w-16 m-8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
           <Link href="/home">
-            <img  src="/imagenes/logoAzul.png" alt="" />
+            <img src="/imagenes/logoAzul.png" alt="" />
           </Link>
         </div>
       </div>

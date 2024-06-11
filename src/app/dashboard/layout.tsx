@@ -11,22 +11,22 @@ export default function DashboardLayout({
 }>) {
   return (
     <>
-      <div className="bg-gray-500 flex justify-center p-4">
+      <div className="bg-gray-900 flex justify-center p-4">
         <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8 items-center">
           <Link
-            className="text-white text-xl hover:text-yellow-300"
+            className="text-white text-xl hover:text-yellow-500 hover:scale-110"
             href="/dashboard/favorites"
           >
             Favoritos
           </Link>
           <Link
-            className="text-white text-xl hover:text-yellow-300"
+            className="text-white text-xl hover:text-yellow-500 hover:scale-110"
             href="/dashboard/orders"
           >
             Ordenes
           </Link>
           <Link
-            className="text-white text-xl hover:text-yellow-300"
+            className="text-white text-xl hover:text-yellow-500 hover:scale-110"
             href="/cart"
           >
             Carrito
