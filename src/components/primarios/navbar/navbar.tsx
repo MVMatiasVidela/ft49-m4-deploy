@@ -68,6 +68,7 @@ const Navbar = () => {
                   alt="Usuario"
                 />
               </Link>
+              <p className="m-auto"> BIENVENIDO/A {userData?.userData.name}</p>
             </div>
           ) : (
             <div className="text-white mr-8 ">
