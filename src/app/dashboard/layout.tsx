@@ -31,6 +31,8 @@ export default function DashboardLayout({
           >
             Carrito
           </Link>
+          <Link href="/">
+          </Link>
         </div>
       </div>
       {children}
